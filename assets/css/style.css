@@ -14,7 +14,13 @@
 	border-bottom: 5px solid #cccccc;
 }
 
-
+.custom-footer {
+	background-color: #666666;
+	border-top: solid 5px #4aaaa5;
+	text-align: center;
+	color: #dddddd;
+	height: 40px;
+}
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
@@ -53,9 +59,6 @@ html {
 	border-bottom: 2px solid #dddddd;
 }
 
-footer div p {
-	padding-top: 15px;
-}
 input {
 	width: 940px;
 	
