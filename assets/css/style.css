@@ -68,10 +68,7 @@ html {
 	background-position: top left;
 	}
 
-.img-resize{
-	width: 10%;
-	height: auto;
-}
+
 #indexPictureandText {
 	margin-top: 30px;
  /*	height: 600px; */
@@ -106,10 +103,19 @@ textarea {
 	
 }
 
-/*
-.container {
-	position: relative;
-    text-align: left;
-    color: white;
+/* the below code I found here: https://gist.github.com/petehouston/85dd33210c0764eeae55 and added some style to the caption */
+
+.thumbnail {
+    position: relative;
+	margin: 30px;
 }
-/*
+
+.caption {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
