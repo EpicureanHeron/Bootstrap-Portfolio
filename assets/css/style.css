@@ -5,9 +5,7 @@
 	font-size: 20px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-
 }
-
 
 .nav-bar-custom {
 	background-color: #ffffff;
@@ -26,23 +24,29 @@
 	font-size: 24px;
 	height: 45px;
 	padding: 12.5px;
-	margin-left: 365px;
+
+	/*to push everything to line up I have been using the px code below
+	/*margin-left: 365px;*/
+	/*margin-left: 17%; */
 }
 
 .nav-bar-push {
-	margin-right: 365px;
+	/*margin-right: 365px;*/
 }
 
 .bottomcolumn {
 	margin-bottom: 30px;
 }
+
 .custom-footer {
 	background-color: #666666;
 	border-top: solid 5px #4aaaa5;
 	text-align: center;
 	color: #dddddd;
 	height: 40px;
+	border-bottom: solid 5px #666666;
 }
+
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
@@ -52,22 +56,22 @@ a {
 	text-decoration: none;
 	color: #777777;
 }
+
 body {
 	background-color: rgba(221,221,221,0.5);
-	/*background-image: url("../images/what-the-hex.png");
-	background-repeat: repeat;	*/
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 }
+
 html {
 	background: url(../images/what-the-hex.png) top left repeat;	
 	background-position: top left;
 	}
-.opacity {
-	background-color: #dddddd;
+
+.img-resize{
+	width: 10%;
+	height: auto;
 }
-
-
 #indexPictureandText {
 	margin-top: 30px;
  /*	height: 600px; */
